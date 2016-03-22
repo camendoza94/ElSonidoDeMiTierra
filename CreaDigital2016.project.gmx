@@ -18,14 +18,22 @@
     <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\move_state.gml</script>
+    <script>scripts\ledge_grab_state.gml</script>
+    <script>scripts\Contact.gml</script>
+    <script>scripts\script2.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Arbol</object>
     <object>objects\Player</object>
     <object>objects\object2</object>
-    <object>objects\Muro</object>
+    <object>objects\Wall</object>
     <object>objects\arbol2</object>
+    <object>objects\Move_Wall</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
