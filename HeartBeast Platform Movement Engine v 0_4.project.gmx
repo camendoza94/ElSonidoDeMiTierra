@@ -73,7 +73,17 @@
     <object>objects\o_mountain</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_test</room>
+    <rooms name="Principal">
+      <room>rooms\r_test</room>
+      <room>rooms\Room_Menu</room>
+      <room>rooms\Room_Creditos</room>
+      <room>rooms\Room_Settings</room>
+    </rooms>
+    <rooms name="Escenarios">
+      <room>rooms\Casa_Ikka</room>
+      <room>rooms\Ciudad_Kantaros</room>
+      <room>rooms\Templo_Ciudad</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
