@@ -56,7 +56,7 @@
     <instance objName="o_solid" x="0" y="32" name="inst_57899A68" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="o_solid" x="608" y="32" name="inst_6421B82C" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="o_moving_solid" x="64" y="144" name="inst_21D361B4" locked="0" code="" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="o_player" x="368" y="156" name="inst_196C8360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="368" y="156" name="inst_196C8360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_mountain" x="416" y="224" name="inst_16B93619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_slope" x="69" y="221" name="inst_C3F084DD" locked="0" code="" scaleX="6" scaleY="4.19999980926514" colour="4294967295" rotation="0"/>
     <instance objName="o_slope" x="389" y="224" name="inst_76670956" locked="0" code="" scaleX="-4" scaleY="4.8125" colour="4294967295" rotation="0"/>

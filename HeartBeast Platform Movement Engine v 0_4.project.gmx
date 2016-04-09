@@ -5,6 +5,7 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\Movement Engine</extension>
+    <extension index="1">extensions\TrueLight2D</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -15,8 +16,36 @@
     <sprite>sprites\s_player_idle</sprite>
     <sprite>sprites\s_solid_slope</sprite>
     <sprite>sprites\s_smooth_slope</sprite>
+    <sprite>sprites\spr_character</sprite>
+    <sprites name="Light Engine">
+      <sprites name="Lights">
+        <sprite>sprites\spr_light_spot</sprite>
+        <sprite>sprites\spr_light_point</sprite>
+        <sprite>sprites\spr_light_spark</sprite>
+      </sprites>
+      <sprites name="Game_Objects">
+        <sprite>sprites\spr_bag</sprite>
+        <sprite>sprites\spr_bin_large</sprite>
+        <sprite>sprites\spr_bin_small</sprite>
+        <sprite>sprites\spr_cans</sprite>
+        <sprite>sprites\spr_crate_large</sprite>
+        <sprite>sprites\spr_crate_small</sprite>
+        <sprite>sprites\spr_lamp</sprite>
+        <sprite>sprites\spr_paper</sprite>
+        <sprite>sprites\spr_platform_cracked</sprite>
+        <sprite>sprites\spr_support_large</sprite>
+        <sprite>sprites\spr_support_small</sprite>
+        <sprite>sprites\spr_block</sprite>
+      </sprites>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="Light Background Engine">
+      <background>background\bac_tileset</background>
+      <background>background\bac_dark_city</background>
+      <background>background\bac_checkers</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Mecanicas HeartBeast">
@@ -64,13 +93,78 @@
         <script>scripts\place_meeting_exception.gml</script>
       </scripts>
     </scripts>
+    <scripts name="TextBox">
+      <script>scripts\TextBox_Properties.gml</script>
+      <script>scripts\Return_Text.gml</script>
+    </scripts>
+    <scripts name="TrueLight_Scripts">
+      <scripts name="Init">
+        <script>scripts\TrueLight_init.gml</script>
+        <script>scripts\TrueLight_surface_init.gml</script>
+        <script>scripts\TrueLight_create_grid.gml</script>
+        <script>scripts\TrueLight_create_tileset_grid.gml</script>
+        <script>scripts\TrueLight_shader_uniforms.gml</script>
+        <script>scripts\TrueLight_cleanup.gml</script>
+        <script>scripts\TrueLight_init_update.gml</script>
+      </scripts>
+      <scripts name="Step">
+        <script>scripts\TrueLight_make_shadows.gml</script>
+        <script>scripts\TrueLight_add_light.gml</script>
+        <script>scripts\TrueLight_instance_check_in_view.gml</script>
+        <script>scripts\TrueLight_surface_check.gml</script>
+      </scripts>
+      <scripts name="Draw">
+        <script>scripts\TrueLight_draw_occluders.gml</script>
+        <script>scripts\TrueLight_tileset_occluder.gml</script>
+        <script>scripts\TrueLight_draw_shadows.gml</script>
+        <script>scripts\TrueLight_draw_sprite_view.gml</script>
+      </scripts>
+    </scripts>
   </scripts>
+  <shaders name="shaders">
+    <shaders name="TrueLight_Shaders">
+      <shader type="GLSLES">shaders\TrueLight_shadow_map_step_1.shader</shader>
+      <shader type="GLSLES">shaders\TrueLight_shadow_map_step_2.shader</shader>
+      <shader type="GLSLES">shaders\TrueLight_ambient.shader</shader>
+    </shaders>
+  </shaders>
   <objects name="objects">
     <object>objects\o_solid</object>
-    <object>objects\o_player</object>
+    <object>objects\Player</object>
     <object>objects\o_moving_solid</object>
     <object>objects\o_slope</object>
     <object>objects\o_mountain</object>
+    <objects name="Light Engine">
+      <objects name="Game_Objects">
+        <object>objects\obj_bag</object>
+        <object>objects\obj_bin_large</object>
+        <object>objects\obj_bin_small</object>
+        <object>objects\obj_cans</object>
+        <object>objects\obj_character</object>
+        <object>objects\obj_crate_large</object>
+        <object>objects\obj_crate_small</object>
+        <object>objects\obj_lamp</object>
+        <object>objects\obj_paper</object>
+        <object>objects\obj_platform_cracked</object>
+        <object>objects\obj_support_large</object>
+        <object>objects\obj_support_small</object>
+        <object>objects\obj_block</object>
+      </objects>
+      <object>objects\obj_game_controller</object>
+      <objects name="Lights">
+        <object>objects\obj_spot_light</object>
+        <object>objects\obj_swing_spot_light</object>
+        <object>objects\obj_point_light</object>
+        <object>objects\obj_mouse_light</object>
+        <object>objects\obj_mouse_light_spark</object>
+      </objects>
+      <object>objects\obj_background</object>
+      <objects name="TrueLight_Objects">
+        <object>objects\obj_TrueLight_controller</object>
+        <object>objects\par_TrueLight_occluders</object>
+        <object>objects\par_TrueLight_lights</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Principal">
@@ -83,6 +177,11 @@
       <room>rooms\Casa_Ikka</room>
       <room>rooms\Ciudad_Kantaros</room>
       <room>rooms\Templo_Ciudad</room>
+    </rooms>
+    <rooms name="Room Light Engine">
+      <room>rooms\rm_tiles</room>
+      <room>rooms\rm_sprites</room>
+      <room>rooms\rm_blocks</room>
     </rooms>
   </rooms>
   <help>
