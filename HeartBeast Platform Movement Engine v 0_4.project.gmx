@@ -19,48 +19,50 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <scripts name="Helper Scripts">
-      <script>scripts\approach.gml</script>
-      <script>scripts\instance_place_multiple.gml</script>
-      <script>scripts\decimal_bbox_right.gml</script>
-      <script>scripts\decimal_bbox_bottom.gml</script>
-      <script>scripts\decimal_bbox_left.gml</script>
-      <script>scripts\decimal_bbox_top.gml</script>
-      <script>scripts\place_meeting_exception.gml</script>
-    </scripts>
-    <scripts name="Movement Entity Setup Scripts">
-      <script>scripts\initialize_movement_entity.gml</script>
-      <script>scripts\move_movement_entity.gml</script>
-      <script>scripts\move_solid_entity.gml</script>
-    </scripts>
-    <scripts name="Motion Scripts">
-      <script>scripts\add_movement_horizontal_vertical.gml</script>
-      <script>scripts\set_movement_horizontal_vertical.gml</script>
-      <script>scripts\add_movement_direction_acceleration.gml</script>
-      <script>scripts\set_movement_direction_speed.gml</script>
-      <script>scripts\add_movement_horizontal_vertical_maxspeed.gml</script>
-      <script>scripts\warp_movement_entity.gml</script>
-    </scripts>
-    <scripts name="Set Property Scripts">
-      <script>scripts\set_movement_collision_object.gml</script>
-      <script>scripts\set_movement_friction.gml</script>
-      <script>scripts\set_movement_bounce.gml</script>
-      <script>scripts\set_movement_gravity.gml</script>
-    </scripts>
-    <scripts name="Action Scripts">
-      <script>scripts\enable_movement_platform_actions.gml</script>
-      <script>scripts\enable_movement_jump.gml</script>
-      <script>scripts\enable_movement_run.gml</script>
-      <script>scripts\enable_movement_run_axis.gml</script>
-      <script>scripts\enable_movement_air_jump.gml</script>
-      <script>scripts\enable_movement_wall_jump.gml</script>
-    </scripts>
-    <scripts name="Sprite Scripts">
-      <scripts name="Animation Scripts">
-        <script>scripts\animation_end.gml</script>
-        <script>scripts\animation_hit_frame.gml</script>
+    <scripts name="Mecanicas HeartBeast">
+      <scripts name="Sprite Scripts">
+        <scripts name="Animation Scripts">
+          <script>scripts\animation_end.gml</script>
+          <script>scripts\animation_hit_frame.gml</script>
+        </scripts>
+        <script>scripts\enable_movement_platform_sprites.gml</script>
       </scripts>
-      <script>scripts\enable_movement_platform_sprites.gml</script>
+      <scripts name="Action Scripts">
+        <script>scripts\enable_movement_platform_actions.gml</script>
+        <script>scripts\enable_movement_jump.gml</script>
+        <script>scripts\enable_movement_run.gml</script>
+        <script>scripts\enable_movement_run_axis.gml</script>
+        <script>scripts\enable_movement_air_jump.gml</script>
+        <script>scripts\enable_movement_wall_jump.gml</script>
+      </scripts>
+      <scripts name="Set Property Scripts">
+        <script>scripts\set_movement_collision_object.gml</script>
+        <script>scripts\set_movement_friction.gml</script>
+        <script>scripts\set_movement_bounce.gml</script>
+        <script>scripts\set_movement_gravity.gml</script>
+      </scripts>
+      <scripts name="Motion Scripts">
+        <script>scripts\add_movement_horizontal_vertical.gml</script>
+        <script>scripts\set_movement_horizontal_vertical.gml</script>
+        <script>scripts\add_movement_direction_acceleration.gml</script>
+        <script>scripts\set_movement_direction_speed.gml</script>
+        <script>scripts\add_movement_horizontal_vertical_maxspeed.gml</script>
+        <script>scripts\warp_movement_entity.gml</script>
+      </scripts>
+      <scripts name="Movement Entity Setup Scripts">
+        <script>scripts\initialize_movement_entity.gml</script>
+        <script>scripts\move_movement_entity.gml</script>
+        <script>scripts\move_solid_entity.gml</script>
+      </scripts>
+      <scripts name="Helper Scripts">
+        <script>scripts\approach.gml</script>
+        <script>scripts\instance_place_multiple.gml</script>
+        <script>scripts\decimal_bbox_right.gml</script>
+        <script>scripts\decimal_bbox_bottom.gml</script>
+        <script>scripts\decimal_bbox_left.gml</script>
+        <script>scripts\decimal_bbox_top.gml</script>
+        <script>scripts\place_meeting_exception.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <objects name="objects">
