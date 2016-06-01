@@ -38,6 +38,142 @@
         <sprite>sprites\spr_block</sprite>
       </sprites>
     </sprites>
+    <sprites name="Unity Assets">
+      <sprites name="Fog">
+        <sprite>sprites\spr_fog1</sprite>
+        <sprite>sprites\spr_fog2</sprite>
+      </sprites>
+      <sprites name="Grass">
+        <sprite>sprites\sprite46</sprite>
+        <sprite>sprites\sprite47</sprite>
+        <sprite>sprites\sprite48</sprite>
+        <sprite>sprites\sprite49</sprite>
+        <sprite>sprites\sprite50</sprite>
+        <sprite>sprites\sprite51</sprite>
+        <sprite>sprites\sprite52</sprite>
+        <sprite>sprites\sprite53</sprite>
+        <sprite>sprites\sprite54</sprite>
+        <sprite>sprites\sprite55</sprite>
+        <sprite>sprites\sprite56</sprite>
+        <sprite>sprites\sprite57</sprite>
+        <sprite>sprites\sprite58</sprite>
+        <sprite>sprites\sprite59</sprite>
+        <sprite>sprites\sprite60</sprite>
+        <sprite>sprites\sprite61</sprite>
+        <sprite>sprites\sprite62</sprite>
+        <sprite>sprites\sprite63</sprite>
+        <sprite>sprites\sprite64</sprite>
+        <sprite>sprites\sprite65</sprite>
+        <sprite>sprites\sprite66</sprite>
+        <sprite>sprites\sprite67</sprite>
+        <sprite>sprites\sprite68</sprite>
+        <sprite>sprites\sprite69</sprite>
+        <sprite>sprites\sprite70</sprite>
+      </sprites>
+      <sprites name="Ground">
+        <sprite>sprites\sprite26</sprite>
+        <sprite>sprites\sprite27</sprite>
+        <sprite>sprites\sprite28</sprite>
+        <sprite>sprites\sprite29</sprite>
+        <sprite>sprites\sprite30</sprite>
+        <sprite>sprites\sprite31</sprite>
+        <sprite>sprites\sprite32</sprite>
+        <sprite>sprites\sprite33</sprite>
+        <sprite>sprites\sprite34</sprite>
+        <sprite>sprites\sprite35</sprite>
+        <sprite>sprites\sprite36</sprite>
+        <sprite>sprites\sprite37</sprite>
+        <sprite>sprites\sprite38</sprite>
+        <sprite>sprites\sprite39</sprite>
+        <sprite>sprites\sprite40</sprite>
+        <sprite>sprites\sprite41</sprite>
+        <sprite>sprites\sprite42</sprite>
+        <sprite>sprites\sprite43</sprite>
+        <sprite>sprites\sprite44</sprite>
+        <sprite>sprites\sprite45</sprite>
+      </sprites>
+      <sprites name="Plants">
+        <sprite>sprites\sprite71</sprite>
+        <sprite>sprites\sprite72</sprite>
+        <sprite>sprites\sprite73</sprite>
+        <sprite>sprites\sprite74</sprite>
+        <sprite>sprites\sprite75</sprite>
+        <sprite>sprites\sprite76</sprite>
+      </sprites>
+      <sprites name="Silhouettes">
+        <sprite>sprites\sprite77</sprite>
+        <sprite>sprites\sprite78</sprite>
+        <sprite>sprites\sprite79</sprite>
+        <sprite>sprites\sprite80</sprite>
+        <sprite>sprites\sprite81</sprite>
+        <sprite>sprites\sprite82</sprite>
+        <sprite>sprites\sprite83</sprite>
+        <sprite>sprites\sprite84</sprite>
+        <sprite>sprites\sprite85</sprite>
+        <sprite>sprites\sprite86</sprite>
+        <sprite>sprites\sprite87</sprite>
+        <sprite>sprites\sprite88</sprite>
+        <sprite>sprites\sprite89</sprite>
+        <sprite>sprites\sprite90</sprite>
+        <sprite>sprites\sprite91</sprite>
+        <sprite>sprites\sprite92</sprite>
+        <sprite>sprites\sprite93</sprite>
+        <sprite>sprites\sprite94</sprite>
+        <sprite>sprites\sprite95</sprite>
+        <sprite>sprites\sprite96</sprite>
+        <sprite>sprites\sprite97</sprite>
+        <sprite>sprites\sprite98</sprite>
+        <sprite>sprites\sprite99</sprite>
+        <sprite>sprites\sprite100</sprite>
+        <sprite>sprites\sprite101</sprite>
+        <sprite>sprites\sprite102</sprite>
+      </sprites>
+      <sprites name="Silhouettes 2">
+        <sprite>sprites\sprite103</sprite>
+        <sprite>sprites\sprite104</sprite>
+      </sprites>
+      <sprites name="Trees">
+        <sprite>sprites\sprite105</sprite>
+        <sprite>sprites\sprite106</sprite>
+        <sprite>sprites\sprite107</sprite>
+        <sprite>sprites\sprite108</sprite>
+        <sprite>sprites\sprite109</sprite>
+        <sprite>sprites\sprite110</sprite>
+        <sprite>sprites\sprite111</sprite>
+        <sprite>sprites\sprite112</sprite>
+        <sprite>sprites\sprite113</sprite>
+        <sprite>sprites\sprite114</sprite>
+        <sprite>sprites\sprite115</sprite>
+        <sprite>sprites\sprite116</sprite>
+        <sprite>sprites\sprite117</sprite>
+        <sprite>sprites\sprite118</sprite>
+        <sprite>sprites\sprite119</sprite>
+        <sprite>sprites\sprite120</sprite>
+        <sprite>sprites\sprite121</sprite>
+        <sprite>sprites\sprite122</sprite>
+        <sprite>sprites\sprite123</sprite>
+        <sprite>sprites\sprite124</sprite>
+        <sprite>sprites\sprite125</sprite>
+        <sprite>sprites\sprite126</sprite>
+        <sprite>sprites\sprite127</sprite>
+        <sprite>sprites\sprite128</sprite>
+        <sprite>sprites\sprite129</sprite>
+        <sprite>sprites\sprite130</sprite>
+        <sprite>sprites\sprite131</sprite>
+        <sprite>sprites\sprite132</sprite>
+        <sprite>sprites\sprite133</sprite>
+        <sprite>sprites\sprite134</sprite>
+        <sprite>sprites\sprite135</sprite>
+        <sprite>sprites\sprite136</sprite>
+        <sprite>sprites\sprite137</sprite>
+        <sprite>sprites\sprite138</sprite>
+        <sprite>sprites\sprite139</sprite>
+        <sprite>sprites\sprite140</sprite>
+        <sprite>sprites\sprite141</sprite>
+        <sprite>sprites\sprite142</sprite>
+        <sprite>sprites\sprite143</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Light Background Engine">
@@ -167,16 +303,17 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="Escenarios">
+      <room>rooms\Bosque_Demo</room>
+      <room>rooms\Casa_Ikka</room>
+      <room>rooms\Ciudad_Kantaros</room>
+      <room>rooms\Templo_Ciudad</room>
+    </rooms>
     <rooms name="Principal">
       <room>rooms\r_test</room>
       <room>rooms\Room_Menu</room>
       <room>rooms\Room_Creditos</room>
       <room>rooms\Room_Settings</room>
-    </rooms>
-    <rooms name="Escenarios">
-      <room>rooms\Casa_Ikka</room>
-      <room>rooms\Ciudad_Kantaros</room>
-      <room>rooms\Templo_Ciudad</room>
     </rooms>
     <rooms name="Room Light Engine">
       <room>rooms\rm_tiles</room>
