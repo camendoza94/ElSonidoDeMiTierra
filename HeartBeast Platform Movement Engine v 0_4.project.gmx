@@ -17,6 +17,138 @@
     <sprite>sprites\s_solid_slope</sprite>
     <sprite>sprites\s_smooth_slope</sprite>
     <sprite>sprites\spr_character</sprite>
+    <sprites name="Unity Assets">
+      <sprites name="Fog">
+        <sprite>sprites\spr_fog1</sprite>
+        <sprite>sprites\spr_fog2</sprite>
+      </sprites>
+      <sprites name="Grass">
+        <sprite>sprites\grass_1</sprite>
+        <sprite>sprites\grass_2</sprite>
+        <sprite>sprites\grass_3</sprite>
+        <sprite>sprites\grass_4</sprite>
+        <sprite>sprites\grass_5</sprite>
+        <sprite>sprites\grass_6</sprite>
+        <sprite>sprites\grass_7</sprite>
+        <sprite>sprites\grass_8</sprite>
+        <sprite>sprites\grass_9</sprite>
+        <sprite>sprites\grass_10</sprite>
+        <sprite>sprites\grass_11</sprite>
+        <sprite>sprites\grass_12</sprite>
+        <sprite>sprites\grass_13</sprite>
+        <sprite>sprites\grass_14</sprite>
+        <sprite>sprites\grass_15</sprite>
+        <sprite>sprites\grass_16</sprite>
+        <sprite>sprites\grass_17</sprite>
+        <sprite>sprites\grass_18</sprite>
+        <sprite>sprites\grass_19</sprite>
+        <sprite>sprites\grass_20</sprite>
+        <sprite>sprites\grass_21</sprite>
+        <sprite>sprites\grass_22</sprite>
+        <sprite>sprites\grass_23</sprite>
+        <sprite>sprites\grass_24</sprite>
+        <sprite>sprites\grass_25</sprite>
+      </sprites>
+      <sprites name="Plants">
+        <sprite>sprites\plant_1</sprite>
+        <sprite>sprites\plant_2</sprite>
+        <sprite>sprites\plant_3</sprite>
+        <sprite>sprites\plant_4</sprite>
+        <sprite>sprites\plant_5</sprite>
+        <sprite>sprites\plant_6</sprite>
+      </sprites>
+      <sprites name="Silhouettes">
+        <sprite>sprites\silueta_1</sprite>
+        <sprite>sprites\silueta_2</sprite>
+        <sprite>sprites\silueta_3</sprite>
+        <sprite>sprites\silueta_4</sprite>
+        <sprite>sprites\silueta_5</sprite>
+        <sprite>sprites\silueta_6</sprite>
+        <sprite>sprites\silueta_7</sprite>
+        <sprite>sprites\silueta_8</sprite>
+        <sprite>sprites\silueta_9</sprite>
+        <sprite>sprites\silueta_10</sprite>
+        <sprite>sprites\silueta_11</sprite>
+        <sprite>sprites\silueta_12</sprite>
+        <sprite>sprites\silueta_13</sprite>
+        <sprite>sprites\silueta_14</sprite>
+        <sprite>sprites\silueta_15</sprite>
+        <sprite>sprites\silueta_16</sprite>
+        <sprite>sprites\silueta_17</sprite>
+        <sprite>sprites\silueta_18</sprite>
+        <sprite>sprites\silueta_19</sprite>
+        <sprite>sprites\silueta_20</sprite>
+        <sprite>sprites\silueta_21</sprite>
+        <sprite>sprites\silueta_22</sprite>
+        <sprite>sprites\silueta_25</sprite>
+        <sprite>sprites\silueta_26</sprite>
+        <sprite>sprites\silueta_27</sprite>
+        <sprite>sprites\silueta_28</sprite>
+      </sprites>
+      <sprites name="Ground">
+        <sprite>sprites\ground_1</sprite>
+        <sprite>sprites\ground_2</sprite>
+        <sprite>sprites\ground_3</sprite>
+        <sprite>sprites\ground_4</sprite>
+        <sprite>sprites\ground_5</sprite>
+        <sprite>sprites\ground_6</sprite>
+        <sprite>sprites\ground_7</sprite>
+        <sprite>sprites\ground_8</sprite>
+        <sprite>sprites\ground_9</sprite>
+        <sprite>sprites\ground_10</sprite>
+        <sprite>sprites\ground_11</sprite>
+        <sprite>sprites\ground_12</sprite>
+        <sprite>sprites\ground_13</sprite>
+        <sprite>sprites\ground_14</sprite>
+        <sprite>sprites\ground_15</sprite>
+        <sprite>sprites\ground_16</sprite>
+        <sprite>sprites\ground_17</sprite>
+        <sprite>sprites\ground_18</sprite>
+        <sprite>sprites\ground_19</sprite>
+        <sprite>sprites\ground_20</sprite>
+      </sprites>
+      <sprites name="Trees">
+        <sprite>sprites\tree_1</sprite>
+        <sprite>sprites\tree_2</sprite>
+        <sprite>sprites\tree_3</sprite>
+        <sprite>sprites\tree_4</sprite>
+        <sprite>sprites\tree_5</sprite>
+        <sprite>sprites\tree_6</sprite>
+        <sprite>sprites\tree_7</sprite>
+        <sprite>sprites\tree_8</sprite>
+        <sprite>sprites\tree_9</sprite>
+        <sprite>sprites\tree_10</sprite>
+        <sprite>sprites\tree_11</sprite>
+        <sprite>sprites\tree_12</sprite>
+        <sprite>sprites\tree_13</sprite>
+        <sprite>sprites\tree_14</sprite>
+        <sprite>sprites\tree_15</sprite>
+        <sprite>sprites\tree_16</sprite>
+        <sprite>sprites\tree_17</sprite>
+        <sprite>sprites\tree_18</sprite>
+        <sprite>sprites\tree_19</sprite>
+        <sprite>sprites\tree_20</sprite>
+        <sprite>sprites\tree_21</sprite>
+        <sprite>sprites\tree_22</sprite>
+        <sprite>sprites\tree_23</sprite>
+        <sprite>sprites\tree_24</sprite>
+        <sprite>sprites\tree_25</sprite>
+        <sprite>sprites\tree_26</sprite>
+        <sprite>sprites\tree_27</sprite>
+        <sprite>sprites\tree_28</sprite>
+        <sprite>sprites\tree_29</sprite>
+        <sprite>sprites\tree_30</sprite>
+        <sprite>sprites\tree_31</sprite>
+        <sprite>sprites\tree_32</sprite>
+        <sprite>sprites\tree_33</sprite>
+        <sprite>sprites\tree_34</sprite>
+        <sprite>sprites\tree_35</sprite>
+        <sprite>sprites\tree_36</sprite>
+        <sprite>sprites\tree_37</sprite>
+        <sprite>sprites\tree_38</sprite>
+        <sprite>sprites\tree_39</sprite>
+      </sprites>
+    </sprites>
     <sprites name="Light Engine">
       <sprites name="Lights">
         <sprite>sprites\spr_light_spot</sprite>
@@ -36,142 +168,6 @@
         <sprite>sprites\spr_support_large</sprite>
         <sprite>sprites\spr_support_small</sprite>
         <sprite>sprites\spr_block</sprite>
-      </sprites>
-    </sprites>
-    <sprites name="Unity Assets">
-      <sprites name="Fog">
-        <sprite>sprites\spr_fog1</sprite>
-        <sprite>sprites\spr_fog2</sprite>
-      </sprites>
-      <sprites name="Grass">
-        <sprite>sprites\sprite46</sprite>
-        <sprite>sprites\sprite47</sprite>
-        <sprite>sprites\sprite48</sprite>
-        <sprite>sprites\sprite49</sprite>
-        <sprite>sprites\sprite50</sprite>
-        <sprite>sprites\sprite51</sprite>
-        <sprite>sprites\sprite52</sprite>
-        <sprite>sprites\sprite53</sprite>
-        <sprite>sprites\sprite54</sprite>
-        <sprite>sprites\sprite55</sprite>
-        <sprite>sprites\sprite56</sprite>
-        <sprite>sprites\sprite57</sprite>
-        <sprite>sprites\sprite58</sprite>
-        <sprite>sprites\sprite59</sprite>
-        <sprite>sprites\sprite60</sprite>
-        <sprite>sprites\sprite61</sprite>
-        <sprite>sprites\sprite62</sprite>
-        <sprite>sprites\sprite63</sprite>
-        <sprite>sprites\sprite64</sprite>
-        <sprite>sprites\sprite65</sprite>
-        <sprite>sprites\sprite66</sprite>
-        <sprite>sprites\sprite67</sprite>
-        <sprite>sprites\sprite68</sprite>
-        <sprite>sprites\sprite69</sprite>
-        <sprite>sprites\sprite70</sprite>
-      </sprites>
-      <sprites name="Ground">
-        <sprite>sprites\sprite26</sprite>
-        <sprite>sprites\sprite27</sprite>
-        <sprite>sprites\sprite28</sprite>
-        <sprite>sprites\sprite29</sprite>
-        <sprite>sprites\sprite30</sprite>
-        <sprite>sprites\sprite31</sprite>
-        <sprite>sprites\sprite32</sprite>
-        <sprite>sprites\sprite33</sprite>
-        <sprite>sprites\sprite34</sprite>
-        <sprite>sprites\sprite35</sprite>
-        <sprite>sprites\sprite36</sprite>
-        <sprite>sprites\sprite37</sprite>
-        <sprite>sprites\sprite38</sprite>
-        <sprite>sprites\sprite39</sprite>
-        <sprite>sprites\sprite40</sprite>
-        <sprite>sprites\sprite41</sprite>
-        <sprite>sprites\sprite42</sprite>
-        <sprite>sprites\sprite43</sprite>
-        <sprite>sprites\sprite44</sprite>
-        <sprite>sprites\sprite45</sprite>
-      </sprites>
-      <sprites name="Plants">
-        <sprite>sprites\sprite71</sprite>
-        <sprite>sprites\sprite72</sprite>
-        <sprite>sprites\sprite73</sprite>
-        <sprite>sprites\sprite74</sprite>
-        <sprite>sprites\sprite75</sprite>
-        <sprite>sprites\sprite76</sprite>
-      </sprites>
-      <sprites name="Silhouettes">
-        <sprite>sprites\sprite77</sprite>
-        <sprite>sprites\sprite78</sprite>
-        <sprite>sprites\sprite79</sprite>
-        <sprite>sprites\sprite80</sprite>
-        <sprite>sprites\sprite81</sprite>
-        <sprite>sprites\sprite82</sprite>
-        <sprite>sprites\sprite83</sprite>
-        <sprite>sprites\sprite84</sprite>
-        <sprite>sprites\sprite85</sprite>
-        <sprite>sprites\sprite86</sprite>
-        <sprite>sprites\sprite87</sprite>
-        <sprite>sprites\sprite88</sprite>
-        <sprite>sprites\sprite89</sprite>
-        <sprite>sprites\sprite90</sprite>
-        <sprite>sprites\sprite91</sprite>
-        <sprite>sprites\sprite92</sprite>
-        <sprite>sprites\sprite93</sprite>
-        <sprite>sprites\sprite94</sprite>
-        <sprite>sprites\sprite95</sprite>
-        <sprite>sprites\sprite96</sprite>
-        <sprite>sprites\sprite97</sprite>
-        <sprite>sprites\sprite98</sprite>
-        <sprite>sprites\sprite99</sprite>
-        <sprite>sprites\sprite100</sprite>
-        <sprite>sprites\sprite101</sprite>
-        <sprite>sprites\sprite102</sprite>
-      </sprites>
-      <sprites name="Silhouettes 2">
-        <sprite>sprites\sprite103</sprite>
-        <sprite>sprites\sprite104</sprite>
-      </sprites>
-      <sprites name="Trees">
-        <sprite>sprites\sprite105</sprite>
-        <sprite>sprites\sprite106</sprite>
-        <sprite>sprites\sprite107</sprite>
-        <sprite>sprites\sprite108</sprite>
-        <sprite>sprites\sprite109</sprite>
-        <sprite>sprites\sprite110</sprite>
-        <sprite>sprites\sprite111</sprite>
-        <sprite>sprites\sprite112</sprite>
-        <sprite>sprites\sprite113</sprite>
-        <sprite>sprites\sprite114</sprite>
-        <sprite>sprites\sprite115</sprite>
-        <sprite>sprites\sprite116</sprite>
-        <sprite>sprites\sprite117</sprite>
-        <sprite>sprites\sprite118</sprite>
-        <sprite>sprites\sprite119</sprite>
-        <sprite>sprites\sprite120</sprite>
-        <sprite>sprites\sprite121</sprite>
-        <sprite>sprites\sprite122</sprite>
-        <sprite>sprites\sprite123</sprite>
-        <sprite>sprites\sprite124</sprite>
-        <sprite>sprites\sprite125</sprite>
-        <sprite>sprites\sprite126</sprite>
-        <sprite>sprites\sprite127</sprite>
-        <sprite>sprites\sprite128</sprite>
-        <sprite>sprites\sprite129</sprite>
-        <sprite>sprites\sprite130</sprite>
-        <sprite>sprites\sprite131</sprite>
-        <sprite>sprites\sprite132</sprite>
-        <sprite>sprites\sprite133</sprite>
-        <sprite>sprites\sprite134</sprite>
-        <sprite>sprites\sprite135</sprite>
-        <sprite>sprites\sprite136</sprite>
-        <sprite>sprites\sprite137</sprite>
-        <sprite>sprites\sprite138</sprite>
-        <sprite>sprites\sprite139</sprite>
-        <sprite>sprites\sprite140</sprite>
-        <sprite>sprites\sprite141</sprite>
-        <sprite>sprites\sprite142</sprite>
-        <sprite>sprites\sprite143</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -299,6 +295,95 @@
         <object>objects\obj_TrueLight_controller</object>
         <object>objects\par_TrueLight_occluders</object>
         <object>objects\par_TrueLight_lights</object>
+      </objects>
+    </objects>
+    <objects name="Unity Assets">
+      <objects name="Grass">
+        <object>objects\ograss_1</object>
+        <object>objects\ograss_2</object>
+        <object>objects\ograss_3</object>
+        <object>objects\ograss_4</object>
+        <object>objects\ograss_5</object>
+        <object>objects\ograss_6</object>
+        <object>objects\ograss_7</object>
+        <object>objects\ograss_8</object>
+        <object>objects\ograss_9</object>
+        <object>objects\ograss_10</object>
+        <object>objects\ograss_11</object>
+        <object>objects\ograss_12</object>
+        <object>objects\ograss_13</object>
+        <object>objects\ograss_14</object>
+        <object>objects\ograss_15</object>
+        <object>objects\ograss_16</object>
+        <object>objects\ograss_17</object>
+        <object>objects\ograss_18</object>
+        <object>objects\ograss_19</object>
+        <object>objects\ograss_20</object>
+        <object>objects\ograss_21</object>
+        <object>objects\ograss_22</object>
+        <object>objects\ograss_23</object>
+        <object>objects\ograss_24</object>
+        <object>objects\ograss_25</object>
+      </objects>
+      <objects name="Plants">
+        <object>objects\oplant_1</object>
+        <object>objects\oplant_2</object>
+        <object>objects\oplant_3</object>
+        <object>objects\oplant_4</object>
+        <object>objects\oplant_5</object>
+        <object>objects\oplant_6</object>
+      </objects>
+      <objects name="Silhouettes">
+        <object>objects\osilueta_1</object>
+        <object>objects\osilueta_2</object>
+        <object>objects\osilueta_3</object>
+        <object>objects\osilueta_4</object>
+        <object>objects\osilueta_5</object>
+        <object>objects\osilueta_6</object>
+        <object>objects\osilueta_7</object>
+        <object>objects\osilueta_8</object>
+        <object>objects\osilueta_9</object>
+        <object>objects\osilueta_10</object>
+        <object>objects\osilueta_11</object>
+        <object>objects\osilueta_12</object>
+        <object>objects\osilueta_13</object>
+        <object>objects\osilueta_14</object>
+        <object>objects\osilueta_15</object>
+        <object>objects\osilueta_16</object>
+        <object>objects\osilueta_17</object>
+        <object>objects\osilueta_18</object>
+        <object>objects\osilueta_19</object>
+        <object>objects\osilueta_20</object>
+        <object>objects\osilueta_21</object>
+        <object>objects\osilueta_22</object>
+        <object>objects\osilueta_23</object>
+        <object>objects\osilueta_24</object>
+        <object>objects\osilueta_25</object>
+        <object>objects\osilueta_26</object>
+        <object>objects\osilueta_27</object>
+        <object>objects\osilueta_28</object>
+      </objects>
+      <objects name="Ground">
+        <object>objects\oground_1</object>
+        <object>objects\oground_2</object>
+        <object>objects\oground_3</object>
+        <object>objects\oground_4</object>
+        <object>objects\oground_5</object>
+        <object>objects\oground_6</object>
+        <object>objects\oground_7</object>
+        <object>objects\oground_8</object>
+        <object>objects\oground_9</object>
+        <object>objects\oground_10</object>
+        <object>objects\oground_11</object>
+        <object>objects\oground_12</object>
+        <object>objects\oground_13</object>
+        <object>objects\oground_14</object>
+        <object>objects\oground_15</object>
+        <object>objects\oground_16</object>
+        <object>objects\oground_17</object>
+        <object>objects\oground_18</object>
+        <object>objects\oground_19</object>
+        <object>objects\oground_20</object>
       </objects>
     </objects>
   </objects>
